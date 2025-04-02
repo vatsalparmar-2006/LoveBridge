@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../utils/constant.dart';
 
 class ApiService {
-  String baseUrl = "https://66f7b785b5d85f31a3436025.mockapi.io/AppApi";
+  String baseUrl = "API Here...";
 
   Future<List<dynamic>> getUsers() async {
     var res = await http.get(Uri.parse(baseUrl));
